@@ -4,8 +4,8 @@ description = "Debug utilities"
 edition     = "2021"
 license     = "Apache-2.0"
 name        = "dbg-swc"
-repository  = "https://github.com/kdy1/dbg-swc.git"
-version     = "0.93.3"
+repository  = { workspace = true }
+version     = "0.93.5"
 
 [[bin]]
 bench = false
